@@ -6,6 +6,7 @@ ehthumbs.db
 Desktop.ini
 _archive_from_kube/*
 _bootstrap*
+interface/_artifacts/*
 
 # Recycle Bin used on file shares
 $RECYCLE.BIN/

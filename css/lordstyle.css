@@ -26,6 +26,14 @@ div {
 
 footer {
 	font-size: 0.9em; }
+@media (max-width: 768px) {
+	footer .socials {
+    text-align: center; }
+  footer .socials li {
+    display: inline-block; }
+	footer .contacts {
+		text-align: left;	}
+}
 
 #logo{
 	margin-bottom: 20px; }
@@ -49,3 +57,18 @@ aside{
 	border-color: rgb(111, 0, 0); }
 .panel-news > .panel-footer {
 	background-color: rgb(111, 0, 0); }
+
+.store-item {
+	border: 1px solid rgb(111,0,0); }
+.store-item .panel-heading {
+	background-color: rgb(111,0,0);
+	text-align: center;	}
+.store-item .panel-body {
+	background-color: black;
+	text-align: center; }
+.store-item .panel-body .price {
+	font-size: 200%; }
+.store-item .panel-footer {
+	border-top: 0px;
+	background-color: rgb(111,0,0);
+	text-align: center; }

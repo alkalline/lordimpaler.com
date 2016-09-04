@@ -42,33 +42,43 @@ h1, h2, h3 {
 	font-family: 'UnifrakturCook', cursive; }
 
 aside{
-	background-color: rgba(222, 0, 0, 0.5);
+	background-color: rgba(211, 0, 0, 0.5);
 	padding: 15px; }
+/*@media (max-width: 768px) {
+	.newsbyyear {
+    text-align: center; }
+  .newsbyyear li {
+    display: inline-block; }
+}*/
+.yearhead {
+	font-size: 1.19em;
+ 	color: rgb(111,0,0); }
 
 .panel-news > .panel-body {
 	min-height: 300px;
-	background-color:black;
+	background-color: black;
 	color: white; }
 .panel-news > .panel-heading {
-	background-color: rgb(111, 0, 0);
+	background-color: rgb(100, 0, 0);
 	color: white;
 	text-align: center; }
 .panel-news {
-	border-color: rgb(111, 0, 0); }
+	border-color: rgb(100, 0, 0); }
 .panel-news > .panel-footer {
-	background-color: rgb(111, 0, 0); }
+	border-top: 0px;
+	background-color: rgb(100, 0, 0); }
 
 .store-item {
-	border: 1px solid rgb(111,0,0); }
+	border: 1px solid rgb(100,0,0); }
 .store-item .panel-heading {
-	background-color: rgb(111,0,0);
+	background-color: rgb(100,0,0);
 	text-align: center;	}
 .store-item .panel-body {
 	background-color: black;
 	text-align: center; }
 .store-item .panel-body .price {
-	font-size: 200%; }
+	font-size: 2em; }
 .store-item .panel-footer {
 	border-top: 0px;
-	background-color: rgb(111,0,0);
+	background-color: rgb(100,0,0);
 	text-align: center; }

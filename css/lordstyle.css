@@ -8,8 +8,7 @@ body {
 	background-attachment: fixed;
 	background-color: #000000; }
 
-div {
-	border: 0px solid red; }
+/*div {border: 0px solid red; }*/
 
 .navbar-inverse {
 	border: 0px;

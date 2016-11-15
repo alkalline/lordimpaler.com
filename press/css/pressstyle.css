@@ -27,9 +27,13 @@ aside{
 	background-color: rgba(190, 160, 126, 0.7);
 	padding: 15px; }
 
-.yearhead {
-	font-size: 1.19em;
- 	color: rgb(111,0,0); }
+#pressbody {
+ 	padding-left: 30px;
+	padding-right: 30px; }
+#pressbody p {
+	text-align: justify;
+	text-indent: 10px;
+	margin-bottom: 20px; }
 
 .fotothumb {
   border: 0px;
